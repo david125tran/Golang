@@ -16,3 +16,9 @@ Following along with online Udemy tutorial, **Go - The Complete Guide**.
     - cd to project root
     - Run the executable from terminal:  
         `./<executable name>`  **(Do not include '.exe' at end)**
+- Run Golang code
+    - cd to project root or directory containing Go file
+    - Run a specific Go file:
+        `go run <filename.go script>`
+    - Alternatively, run the current package:
+        `go run .`
