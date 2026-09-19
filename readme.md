@@ -1,9 +1,11 @@
 # Golang 
 
-Following along with online Udemy tutorial, **Go - The Complete Guide**. 
+Following along with online Udemy tutorial, **Go - The Complete Guide**. This repo is for my personal reference to go back to. 
 
 - 01 - Getting Started
 - 02 - Go Essentials
+- 03 - Working with Packages
+- 04 - Understanding Pointers
 
 ## Commands
 - Build executable
