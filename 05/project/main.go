@@ -1,8 +1,11 @@
 package main
 
 import (
+	"bufio"
 	"example.com/go-project/note"
 	"fmt"
+	"os"
+	"strings"
 )
 
 func main() {
@@ -16,7 +19,14 @@ func main() {
 	}
 
 	userNote.Display()
+	err = userNote.Save()
 
+	if err != nil {
+		fmt.Println("Error saving the note:", err)
+		return
+	}
+
+	fmt.Println("Note saved.")
 }
 
 func getNoteData() (string, string) {
@@ -29,8 +39,18 @@ func getNoteData() (string, string) {
 
 func getUserInput(prompt string) string {
 	fmt.Print(prompt)
-	var value string
-	fmt.Scanln(&value)
 
-	return value
+	reader := bufio.NewReader(os.Stdin)
+
+	text, err := reader.ReadString('\n')
+
+	if err != nil {
+		return ""
+	}
+
+	// Remove text
+	text = strings.TrimSuffix(text, "\n")
+	text = strings.TrimSuffix(text, "\r")
+
+	return text
 }
