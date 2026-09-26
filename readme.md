@@ -6,6 +6,9 @@ Following along with online Udemy tutorial, **Go - The Complete Guide**. This re
 - 02 - Go Essentials
 - 03 - Working with Packages
 - 04 - Understanding Pointers
+- 05 - Structs and Custom Types
+- 06 - Interfaces and Generic Code
+
 
 ## Commands
 - Build executable
