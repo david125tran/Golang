@@ -8,7 +8,7 @@ Following along with online Udemy tutorial, **Go - The Complete Guide**. This re
 - 04 - Understanding Pointers
 - 05 - Structs and Custom Types
 - 06 - Interfaces and Generic Code
-
+- 07 - Managing Related Data with Arrays, Slices, and Maps
 
 ## Commands
 - Build executable
