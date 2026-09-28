@@ -9,6 +9,10 @@ Following along with online Udemy tutorial, **Go - The Complete Guide**. This re
 - 05 - Structs and Custom Types
 - 06 - Interfaces and Generic Code
 - 07 - Managing Related Data with Arrays, Slices, and Maps
+- 08 - Functions: Deep Dive
+- 09 - Project: Price Calculator
+- 10 - Concurrency - Running Tasks in Parallel
+- 11 - Project: Build a REST API (w/Authentication & SQL DB)
 
 ## Commands
 - Build executable
